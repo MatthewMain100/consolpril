@@ -6,10 +6,32 @@ const personalMovieDB={
     genres:[],
     privat:false
 };
-const a=prompt("один из последних просмотренных фильмов?",''),
-      b=prompt("на сколько оцените его?",''),
-      c=prompt("один из последних просмотренных фильмов?",''),
-      d=prompt("на сколько оцените его?",'');
-      personalMovieDB.movies[a]=b;
-      personalMovieDB.movies[c]=d;
-      console.log(personalMovieDB);
+      for(let i=0;i<2;i++) { 
+      const a=prompt("один из последних просмотренных фильмов?",'');
+    const b=prompt("на сколько оцените его?",'');
+  }
+
+   console.log(personalMovieDB);
+
+   function first(){
+     setTimeout(function(){
+     console.log(1);
+   },500);
+  }
+  first();
+function LearnJS(lang,callback){
+  console.log(`hhh:${lang}`);
+  callback();
+}
+LearnJS('javascript',function(){
+  console.log('hdufb');
+});
+const oldArray=['a','b','c'];
+const newArray=oldArray.slice();
+newArray[1]='piska';
+console.log(oldArray);
+console.log(newArray);
+const video=['ff','gg','kk'],
+blogs=['ff1','gg1','kk1'],
+socialmedia=[...video, ...blogs];
+console.log(socialmedia);
