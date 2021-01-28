@@ -1,78 +1,89 @@
-.box {
-  width: 750px;
-  height: 750px;
-  background-color: rgb(49, 41, 128);
+
+  .wrapper {
+    position:relative;
+    width: 720px;
+    height: 900px;
+    border: 22px solid rgb(85, 106, 107);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+.knopka{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  left: 15%;
+  bottom: 42%;
+  background-color:transparent;
 }
-button {
-	width: 80px;
-	height: 30px;
-	margin-top: 10px;
-	border: none;
-	border-radius: 8px;
-	background-color: rgb(182, 34, 187);
-	color: rgb(43, 36, 68);
-	cursor: pointer;
-	outline: none;
+.knopka1{
+  width: 225px;
+  height: 150px;
+  position: absolute;
+  left: 34%;
+  bottom: 49%;
+  background-color:transparent;
+}
+.knopka2{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  left: 40%;
+  bottom: 27%;
+  background-color:transparent;
+}
+.knopka3{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  left: 68%;
+  bottom: 42%;
+  background-color:transparent;
 }
 
-.circle {
-	width: 80px;
-	height: 80px;
-	background-color: rgb(14, 14, 116);
-	display: block;
-	margin-top: 10px;
-	border-radius: 100%;
-}
-
-.heart {
-	display: inline-block;
-    position: sticky;
-    width: 100px;
-    height: 90px;
-    margin-top: 10px;
-}
-.heart:before,
-.heart:after {
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
+  .btn {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center; 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
     height: 80px;
-    background: red;
-    -moz-border-radius: 50px 50px 0 0;
-    border-radius: 50px 50px 0 0;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
+    background-color: yellow;
+    border:orange;
+  }
+  .muscle_knopka{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: yellow;
+    border:orange;
+    width: 720px;
+    height: 900px;
+  }
+.pullup{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  left: 130%;
+  bottom: 27%;
+  background-color:orange;
 }
-.heart:after {
-    left: 0;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
+.pullup1{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  left: 130%;
+  bottom: 67%;
+  background-color:orange;
 }
-.black{
-	width: 150px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	background-color: black;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	color: #fff;
+.pullup2{
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  right:160%;
+  bottom: 67%;
+  background-color:orange;
 }
